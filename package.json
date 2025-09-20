@@ -1,0 +1,17 @@
+{
+  "name": "bilanciofacile-backend-v2",
+  "version": "1.0.0",
+  "description": "Backend server for BilancioFacile app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "lowdb": "^7.0.1",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
